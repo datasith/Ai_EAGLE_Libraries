@@ -163,7 +163,7 @@ TS-003</description>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
 <smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
 <smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
-<text x="-2.54" y="1.778" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="1.778" size="1.27" layer="25" ratio="15">&gt;NAME</text>
 </package>
 <package name="DIODE-1N914">
 <wire x1="1.905" y1="1.27" x2="0.889" y2="1.27" width="0.254" layer="21"/>
@@ -227,9 +227,10 @@ TS-003</description>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="0" size="1.524" layer="95" ratio="15">&gt;NAME</text>
+<text x="1.27" y="0" size="1.524" layer="95" ratio="15">&gt;NAME</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-4.445" y="-3.175" size="1.524" layer="95" ratio="15">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -251,7 +252,7 @@ TS-003</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE" prefix="D">
+<deviceset name="DIODE" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
