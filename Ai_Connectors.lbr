@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -551,7 +551,7 @@
 <wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90" first="yes"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-1.27" y="1.524" size="1.27" layer="25" ratio="15">&gt;NAME</text>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
 </package>
@@ -1276,6 +1276,24 @@ Keying posts into board</description>
 <smd name="13" x="13.97" y="-2.032" dx="1.27" dy="5.334" layer="1"/>
 <smd name="14" x="16.51" y="2.032" dx="1.27" dy="5.334" layer="1"/>
 </package>
+<package name="POWERJACK-TH">
+<wire x1="4.5" y1="13.7" x2="2.4" y2="13.7" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="3" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="0.1" x2="4.5" y2="3" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="0.1" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="3" x2="4.5" y2="8.3" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="13.7" x2="4.5" y2="13" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="3" x2="-4.5" y2="13.7" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="13.7" x2="-2.4" y2="13.7" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="3" x2="4.5" y2="3" width="0.2032" layer="21"/>
+<pad name="PWR" x="0" y="13.7" drill="2.9972" diameter="4.318"/>
+<pad name="GND" x="0" y="7.7" drill="2.9972" diameter="4.318"/>
+<pad name="GNDBREAK" x="4.7" y="10.7" drill="2.9972" diameter="4.318" rot="R90"/>
+<text x="-4.98" y="5.39" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+</package>
+<package name="PAD-03X.03">
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X08">
@@ -1714,6 +1732,13 @@ Keying posts into board</description>
 <pin name="GNDBREAK" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 <pin name="GND" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
 <pin name="PWR" x="7.62" y="2.54" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="TESTPOINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-0.762" y="1.27" size="1.524" layer="95" ratio="15">&gt;NAME</text>
+<text x="-0.762" y="-2.54" size="1.524" layer="96" ratio="15">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2413,7 +2438,7 @@ push-push type</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWERJACK">
+<deviceset name="POWERJACK" prefix="J">
 <gates>
 <gate name="G$1" symbol="POWERJACK" x="0" y="0"/>
 </gates>
@@ -2423,6 +2448,31 @@ push-push type</description>
 <connect gate="G$1" pin="GND" pad="P$4"/>
 <connect gate="G$1" pin="GNDBREAK" pad="GND"/>
 <connect gate="G$1" pin="PWR" pad="VIN0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TH" package="POWERJACK-TH">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GNDBREAK" pad="GNDBREAK"/>
+<connect gate="G$1" pin="PWR" pad="PWR"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPOINT" prefix="TP" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TESTPOINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>

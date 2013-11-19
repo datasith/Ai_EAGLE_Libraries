@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -228,10 +228,8 @@
 <wire x1="-1.4478" y1="4.1402" x2="-1.4478" y2="13.1572" width="0.254" layer="51"/>
 </package>
 <package name="UNOR3-STRAIGHT">
-<wire x1="0" y1="0" x2="69.85" y2="0" width="0.127" layer="20"/>
-<wire x1="69.85" y1="0" x2="69.85" y2="53.34" width="0.127" layer="20"/>
-<wire x1="69.85" y1="53.34" x2="0" y2="53.34" width="0.127" layer="20"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="1.016" y1="0" x2="68.834" y2="0" width="0.127" layer="20"/>
+<wire x1="68.834" y1="53.34" x2="1.016" y2="53.34" width="0.127" layer="20"/>
 <circle x="15.24" y="50.8" radius="1.796" width="0.127" layer="51"/>
 <circle x="13.97" y="2.54" radius="1.796" width="0.127" layer="51"/>
 <circle x="66.04" y="35.56" radius="1.796" width="0.127" layer="51"/>
@@ -329,6 +327,12 @@
 <circle x="67.31" y="2.54" radius="1.796" width="0.127" layer="20"/>
 <circle x="2.54" y="2.54" radius="1.796" width="0.127" layer="20"/>
 <circle x="2.54" y="50.8" radius="1.796" width="0.127" layer="20"/>
+<wire x1="1.016" y1="0" x2="0" y2="1.016" width="0.127" layer="20"/>
+<wire x1="0" y1="1.016" x2="0" y2="52.324" width="0.127" layer="20"/>
+<wire x1="0" y1="52.324" x2="1.016" y2="53.34" width="0.127" layer="20"/>
+<wire x1="68.834" y1="53.34" x2="69.85" y2="52.324" width="0.127" layer="20"/>
+<wire x1="69.85" y1="52.324" x2="69.85" y2="1.016" width="0.127" layer="20"/>
+<wire x1="69.85" y1="1.016" x2="68.834" y2="0" width="0.127" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -371,6 +375,103 @@
 <pin name="A4/SDA@2" x="20.32" y="20.32" visible="pin" length="middle" rot="R180"/>
 <text x="-15.24" y="26.035" size="1.524" layer="96" ratio="15">ARDUINO-UNOR3</text>
 <text x="-15.24" y="-27.305" size="1.524" layer="95" ratio="15">&gt;NAME</text>
+</symbol>
+<symbol name="BLACKJACK-PINOUT">
+<wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="20.32" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-20.32" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-20.32" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<text x="-7.62" y="20.955" size="1.524" layer="96" ratio="15">BLACKJACK</text>
+<text x="-19.05" y="17.145" size="1.27" layer="95" ratio="15">AD4/SDA</text>
+<text x="-19.05" y="14.605" size="1.27" layer="95" ratio="15">AD5/SCL</text>
+<text x="-13.335" y="12.065" size="1.27" layer="95" ratio="15">D9</text>
+<text x="-14.605" y="9.525" size="1.27" layer="95" ratio="15">D10</text>
+<text x="-20.32" y="6.985" size="1.27" layer="95" ratio="15">D11/MOSI</text>
+<text x="-20.32" y="4.445" size="1.27" layer="95" ratio="15">D12/MISO</text>
+<text x="-19.685" y="1.905" size="1.27" layer="95" ratio="15">D13/SCK</text>
+<text x="-15.875" y="-0.635" size="1.27" layer="95" ratio="15">AREF</text>
+<text x="11.43" y="17.145" size="1.27" layer="95" ratio="15">VIN</text>
+<text x="11.43" y="14.605" size="1.27" layer="95" ratio="15">D8</text>
+<text x="11.43" y="12.065" size="1.27" layer="95" ratio="15">D7</text>
+<text x="11.43" y="9.525" size="1.27" layer="95" ratio="15">D6</text>
+<text x="11.43" y="6.985" size="1.27" layer="95" ratio="15">D5</text>
+<text x="11.43" y="4.445" size="1.27" layer="95" ratio="15">D4</text>
+<text x="11.43" y="1.905" size="1.27" layer="95" ratio="15">D3</text>
+<text x="11.43" y="-0.635" size="1.27" layer="95" ratio="15">D2</text>
+<text x="-13.97" y="-3.175" size="1.27" layer="95" ratio="15">AD0</text>
+<text x="-13.97" y="-5.715" size="1.27" layer="95" ratio="15">AD1</text>
+<text x="-13.97" y="-8.255" size="1.27" layer="95" ratio="15">AD2</text>
+<text x="-13.97" y="-10.795" size="1.27" layer="95" ratio="15">AD3</text>
+<text x="-19.05" y="-13.335" size="1.27" layer="95" ratio="15">AD4/SDA</text>
+<text x="-19.05" y="-15.875" size="1.27" layer="95" ratio="15">AD5/SCL</text>
+<text x="11.43" y="-3.175" size="1.27" layer="95" ratio="15">RESET</text>
+<text x="11.43" y="-5.715" size="1.27" layer="95" ratio="15">GND</text>
+<text x="11.43" y="-8.255" size="1.27" layer="95" ratio="15">GND</text>
+<text x="11.43" y="-10.795" size="1.27" layer="95" ratio="15">VCC</text>
+<text x="11.43" y="-13.335" size="1.27" layer="95" ratio="15">D1/RXI</text>
+<text x="11.43" y="-15.875" size="1.27" layer="95" ratio="15">D0/TXO</text>
+<text x="11.43" y="-18.415" size="1.27" layer="95" ratio="15">(DTR)</text>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-10.795" y2="17.78" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-10.795" y2="15.24" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-10.795" y2="12.7" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-10.795" y2="10.16" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-10.795" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-10.795" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-10.795" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-10.795" y2="0" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-10.795" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-10.795" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-10.795" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-10.795" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-10.795" y2="-12.7" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-10.795" y2="-15.24" width="0.127" layer="94"/>
+<wire x1="10.795" y1="17.78" x2="7.62" y2="17.78" width="0.127" layer="94"/>
+<wire x1="10.795" y1="15.24" x2="7.62" y2="15.24" width="0.127" layer="94"/>
+<wire x1="10.795" y1="12.7" x2="7.62" y2="12.7" width="0.127" layer="94"/>
+<wire x1="10.795" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="94"/>
+<wire x1="10.795" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="94"/>
+<wire x1="10.795" y1="5.08" x2="7.62" y2="5.08" width="0.127" layer="94"/>
+<wire x1="10.795" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="94"/>
+<wire x1="10.795" y1="0" x2="7.62" y2="0" width="0.127" layer="94"/>
+<wire x1="10.795" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="10.795" y1="-5.08" x2="7.62" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="10.795" y1="-7.62" x2="7.62" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="10.795" y1="-10.16" x2="7.62" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="10.795" y1="-12.7" x2="7.62" y2="-12.7" width="0.127" layer="94"/>
+<wire x1="10.795" y1="-15.24" x2="7.62" y2="-15.24" width="0.127" layer="94"/>
+<wire x1="10.795" y1="-17.78" x2="7.62" y2="-17.78" width="0.127" layer="94"/>
+<text x="-3.81" y="-17.78" size="1.524" layer="96" ratio="15">PINOUT</text>
+<text x="5.08" y="-15.875" size="1.27" layer="95" ratio="15">31</text>
+<text x="5.08" y="-13.335" size="1.27" layer="95" ratio="15">30</text>
+<text x="5.08" y="-10.795" size="1.27" layer="95" ratio="15">18</text>
+<text x="6.35" y="-8.255" size="1.27" layer="95" ratio="15">5</text>
+<text x="6.35" y="-5.715" size="1.27" layer="95" ratio="15">3</text>
+<text x="5.08" y="-3.175" size="1.27" layer="95" ratio="15">29</text>
+<text x="5.08" y="-0.635" size="1.27" layer="95" ratio="15">32</text>
+<text x="6.35" y="1.905" size="1.27" layer="95" ratio="15">1</text>
+<text x="6.35" y="4.445" size="1.27" layer="95" ratio="15">2</text>
+<text x="6.35" y="6.985" size="1.27" layer="95" ratio="15">9</text>
+<text x="5.08" y="9.525" size="1.27" layer="95" ratio="15">10</text>
+<text x="5.08" y="12.065" size="1.27" layer="95" ratio="15">11</text>
+<text x="5.08" y="14.605" size="1.27" layer="95" ratio="15">12</text>
+<text x="6.35" y="17.145" size="1.27" layer="95" ratio="15">1</text>
+<text x="-6.35" y="-3.175" size="1.27" layer="95" ratio="15">23</text>
+<text x="-6.35" y="-15.875" size="1.27" layer="95" ratio="15">28</text>
+<text x="-6.35" y="-5.715" size="1.27" layer="95" ratio="15">24</text>
+<text x="-6.35" y="-8.255" size="1.27" layer="95" ratio="15">25</text>
+<text x="-6.35" y="-10.795" size="1.27" layer="95" ratio="15">26</text>
+<text x="-6.35" y="-13.335" size="1.27" layer="95" ratio="15">27</text>
+<text x="-6.35" y="-0.635" size="1.27" layer="95" ratio="15">20</text>
+<text x="-6.35" y="1.905" size="1.27" layer="95" ratio="15">17</text>
+<text x="-6.35" y="9.525" size="1.27" layer="95" ratio="15">14</text>
+<text x="-6.35" y="6.985" size="1.27" layer="95" ratio="15">15</text>
+<text x="-6.35" y="4.445" size="1.27" layer="95" ratio="15">16</text>
+<text x="-6.35" y="12.065" size="1.27" layer="95" ratio="15">13</text>
+<text x="-6.35" y="14.605" size="1.27" layer="95" ratio="15">28</text>
+<text x="-6.35" y="17.145" size="1.27" layer="95" ratio="15">27</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -453,6 +554,18 @@
 <connect gate="G$1" pin="RESET" pad="RESET"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLACKJACK" prefix="BLACKJACK">
+<gates>
+<gate name="G$1" symbol="BLACKJACK-PINOUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
