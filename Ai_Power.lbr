@@ -151,6 +151,10 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
+<description>&lt;h3&gt;Ai Power&lt;/h3&gt;
+&lt;p&gt;
+This library includes power ICs such as regulators, power symbols (e.g., GND, 5V, VIN, VBAT).
+&lt;/p&gt;</description>
 <packages>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
