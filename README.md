@@ -65,7 +65,7 @@ License Information
 ---
 All contents of this repository are licensed under a [Beerware License](http://en.wikipedia.org/wiki/Beerware).  If you find the libraries useful, and we happen to cross paths, you're encouraged to buy us a beer.
 
-It'd be great to hear what you've built using these libraries, so [drop us a line][4] and we'll happily feature your latest creation on our blog!
+It'd be great to hear what you've built using these libraries, so [drop us a line][4] and we'll happily feature your latest creation on our [blog][5]!
 
 ![alt Beerware License](http://upload.wikimedia.org/wikipedia/commons/d/d5/BeerWare_Logo.svg)
 
@@ -73,3 +73,4 @@ It'd be great to hear what you've built using these libraries, so [drop us a lin
 [2]: http://www.acrobotic.com/ "Acrobotic Homepage"
 [3]: http://learn.acrobotic.com/eagle "Acrobotic EAGLE Tutorials"
 [4]: http://acrobotic.com/contacts/ "Contact Acrobotic"
+[4]: http://blog.acrobotic.com/ "Acrobotic Blog"
