@@ -73,4 +73,4 @@ It'd be great to hear what you've built using these libraries, so [drop us a lin
 [2]: http://www.acrobotic.com/ "Acrobotic Homepage"
 [3]: http://learn.acrobotic.com/eagle "Acrobotic EAGLE Tutorials"
 [4]: http://acrobotic.com/contacts/ "Contact Acrobotic"
-[4]: http://blog.acrobotic.com/ "Acrobotic Blog"
+[5]: http://blog.acrobotic.com/ "Acrobotic Blog"
