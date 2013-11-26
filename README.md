@@ -63,7 +63,7 @@ If you have any doubts about installation, usage, or troubleshooting the library
 
 License Information
 ---
-All contents of this repository are licensed under a [Beerware License](http://en.wikipedia.org/wiki/Beerware).  If you find the libraries useful, and we happen to cross paths, you're encouraged to buy us a beer.
+All contents of this repository are licensed under a [Beerware License](http://en.wikipedia.org/wiki/Beerware).  If you find the libraries useful, and we happen to cross paths, you're encouraged to buy us a beer. The libraries are distributed hoping that you in fact find them useful, but  without warranty of any kind.
 
 It'd be great to hear what you've built using these libraries, so [drop us a line][4] and we'll happily feature your latest creation on our [blog][5]!
 
