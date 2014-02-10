@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -311,7 +311,7 @@ This library includes power ICs such as regulators, power symbols (e.g., GND, 5V
 <wire x1="-2.032" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="-1.524" x2="0.508" y2="-1.524" width="0.254" layer="94"/>
-<text x="-2.54" y="0" size="1.524" layer="96" ratio="15">&gt;VALUE</text>
+<text x="-2.54" y="0" size="1.524" layer="96" font="vector" ratio="15">&gt;VALUE</text>
 </symbol>
 <symbol name="VCC">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -322,13 +322,13 @@ This library includes power ICs such as regulators, power symbols (e.g., GND, 5V
 <symbol name="5V">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="2.54" size="1.524" layer="96" ratio="15">5V</text>
+<text x="-1.27" y="2.54" size="1.27" layer="96" font="vector" ratio="15">5V</text>
 <pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="3V3">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="2.54" size="1.524" layer="96" ratio="15">3V3</text>
+<text x="-1.905" y="2.54" size="1.27" layer="96" font="vector" ratio="15">3V3</text>
 <pin name="3V3" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="12V">
@@ -369,11 +369,11 @@ This library includes power ICs such as regulators, power symbols (e.g., GND, 5V
 <wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
-<text x="0.635" y="-5.08" size="1.524" layer="95" ratio="15">&gt;NAME</text>
+<text x="0.635" y="-5.08" size="1.524" layer="95" font="vector" ratio="15">&gt;NAME</text>
 <pin name="IN" x="-7.62" y="2.54" visible="pin" length="point" direction="pwr"/>
 <pin name="GND" x="0" y="-5.08" visible="pin" length="point" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="2.54" visible="pin" length="point" direction="pwr" rot="R180"/>
-<text x="-6.35" y="5.715" size="1.524" layer="96" ratio="15">&gt;VALUE</text>
+<text x="-5.08" y="5.08" size="1.524" layer="96" font="vector" ratio="15">&gt;VALUE</text>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
@@ -382,19 +382,19 @@ This library includes power ICs such as regulators, power symbols (e.g., GND, 5V
 <symbol name="9V">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-0.635" y="2.54" size="1.524" layer="96" ratio="15">9V</text>
+<text x="-0.635" y="2.54" size="1.27" layer="96" font="vector" ratio="15">9V</text>
 <pin name="9V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="PWR">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="2.54" size="1.524" layer="96" ratio="15">PWR</text>
+<text x="-1.905" y="2.54" size="1.27" layer="96" font="vector" ratio="15">PWR</text>
 <pin name="PWR" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="VIN">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="2.54" size="1.524" layer="96" ratio="15">VIN</text>
+<text x="-1.905" y="2.54" size="1.524" layer="96" font="vector" ratio="15">VIN</text>
 <pin name="VIN" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="VBAT">
@@ -602,14 +602,14 @@ Haven't tested the footprint on an actual board yet!
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCP1117-*" prefix="U">
-<description>&lt;b&gt;Voltage Regulator LM1117&lt;/b&gt;
-Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU : COM-00595</description>
+<deviceset name="LD1117*" prefix="U">
+<description>&lt;h3&gt;Voltage Regulator LD1117&lt;/h3&gt;
+Standard adjustable voltage regulator.</description>
 <gates>
 <gate name="G$1" symbol="VREG-ADJ" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="SOT223" package="SOT223">
+<device name="S33TR" package="SOT223">
 <connects>
 <connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="IN" pad="1"/>

@@ -1,4 +1,4 @@
-<h3>Acrobotic CADSoft Eagle 6.x Libraries</h3>
+<h3>Acrobotic CADSoft EAGLE 6.x Libraries</h3>
 <p>
 This repository includes our libraries for <a href="www.cadsoftusa.com" title="CadSoft EAGLE PCB Design Software">CadSoft EAGLE PCB Design Software</a> (version 6.x). We use the components in these libraries for designing the electronic hardware of the products we sell on our <a href="http://acrobotic.com" title="Acrobotic Industries' website">website</a>.  We've tested <strong>most</strong> of the footprints herein, and little by little we'll be adding whether they've been tested or not in the devices' description.  Nonetheless, always, <strong>always</strong> test your board layouts by printing a 1:1 scale copy, and superimposing the physical components on it.
 </p>
