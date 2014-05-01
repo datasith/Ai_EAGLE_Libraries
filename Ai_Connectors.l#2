@@ -1349,8 +1349,8 @@ Keying posts into board</description>
 <text x="-2.54" y="-4.445" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <smd name="M5" x="-1.15" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
 <smd name="M6" x="1.15" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
-<pad name="MT1" x="-2.425" y="2.8" drill="0.6" diameter="1.2"/>
-<pad name="MT2" x="2.425" y="2.8" drill="0.6" diameter="1.2"/>
+<pad name="MT1" x="-2.425" y="2.8" drill="0.7"/>
+<pad name="MT2" x="2.425" y="2.8" drill="0.7"/>
 <pad name="MT3" x="-3.61" y="0" drill="1.1" diameter="2" rot="R180"/>
 <pad name="MT4" x="3.61" y="0" drill="1.1" diameter="2" rot="R90"/>
 </package>

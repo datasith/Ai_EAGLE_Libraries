@@ -368,9 +368,9 @@ chip</description>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="1.27" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.8796" rot="R180"/>
-<pad name="2" x="0" y="2.54" drill="1" diameter="1.8796" rot="R180"/>
-<pad name="3" x="2.54" y="0" drill="1" diameter="1.8796" rot="R180"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1" diameter="1.8796" rot="R180"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.8796" rot="R180"/>
+<pad name="3" x="2.54" y="-2.54" drill="1" diameter="1.8796" rot="R180"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
 </package>
 <package name="CAP-0402">
@@ -508,7 +508,6 @@ chip</description>
 </symbols>
 <devicesets>
 <deviceset name="RES" prefix="R" uservalue="yes">
-<description>Part # blah Digikey</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>

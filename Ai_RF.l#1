@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -317,7 +317,7 @@ This library includes RF ICs including Wi-Fi and Bluetooth, RF connectors, anten
 <wire x1="-7.62" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-3.81" x2="1.27" y2="-7.62" width="0.127" layer="21"/>
 <text x="-7.62" y="7.62" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<rectangle x1="-8.89" y1="5.842" x2="-8.636" y2="6.858" layer="21"/>
+<rectangle x1="-9.398" y1="5.588" x2="-8.636" y2="7.112" layer="21"/>
 </package>
 </packages>
 <symbols>
