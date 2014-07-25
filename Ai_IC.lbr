@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -957,6 +957,58 @@ Used on single circuit logic gates</description>
 <rectangle x1="1.7272" y1="2.5908" x2="2.0828" y2="3.6068" layer="51"/>
 <rectangle x1="-2.032" y1="-5.0165" x2="-1.778" y2="-4.3815" layer="21" rot="R90"/>
 </package>
+<package name="MICS-SMD8">
+<wire x1="-2.5" y1="-2.5" x2="-0.508" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-0.8" x2="2.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0.5" x2="2.5" y2="0.8" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.8" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="1" x="-2.5" y="1.27" dx="2" dy="0.64" layer="1" rot="R180"/>
+<smd name="2" x="-2.5" y="0" dx="2" dy="0.64" layer="1" rot="R180"/>
+<smd name="3" x="-2.5" y="-1.27" dx="2" dy="0.64" layer="1" rot="R180"/>
+<smd name="4" x="0" y="-2.5" dx="0.64" dy="2" layer="1" rot="R180"/>
+<smd name="5" x="2.5" y="-1.27" dx="2" dy="0.64" layer="1" rot="R180"/>
+<smd name="6" x="2.5" y="0" dx="2" dy="0.64" layer="1" rot="R180"/>
+<smd name="7" x="2.5" y="1.27" dx="2" dy="0.64" layer="1" rot="R180"/>
+<smd name="8" x="0" y="2" dx="0.64" dy="3" layer="1" rot="R180"/>
+<text x="-2.8" y="3.7" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-0.8" x2="-2.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.5" x2="-2.5" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.8" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.937" y1="1.524" x2="-3.937" y2="1.016" width="0.254" layer="21"/>
+<wire x1="0.5" y1="-2.5" x2="2.492" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-0.508" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="2.5" x2="2.492" y2="2.5" width="0.127" layer="21"/>
+</package>
+<package name="MICS-SMD10">
+<wire x1="-3.5" y1="2.5" x2="-1.9" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="1.9" y1="2.5" x2="3.5" y2="2.5" width="0.1524" layer="21"/>
+<smd name="H" x="-1.25" y="2.54" dx="0.6" dy="2" layer="1"/>
+<smd name="G" x="0" y="2.54" dx="0.6" dy="2" layer="1"/>
+<smd name="F" x="1.25" y="2.54" dx="0.6" dy="2" layer="1"/>
+<smd name="A" x="-1.25" y="-2.54" dx="0.6" dy="2" layer="1"/>
+<smd name="B" x="0" y="-2.54" dx="0.6" dy="2" layer="1"/>
+<smd name="C" x="1.25" y="-2.54" dx="0.6" dy="2" layer="1"/>
+<smd name="J" x="-3.5" y="1.27" dx="2" dy="0.6" layer="1"/>
+<smd name="K" x="-3.5" y="-1.27" dx="2" dy="0.6" layer="1"/>
+<smd name="E" x="3.5" y="1.27" dx="2" dy="0.6" layer="1"/>
+<smd name="D" x="3.5" y="-1.27" dx="2" dy="0.6" layer="1"/>
+<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="-1.9" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-0.7" x2="-3.5" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="2.5" x2="-3.5" y2="1.9" width="0.1524" layer="21"/>
+<wire x1="-0.725" y1="2.5" x2="-0.525" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="0.525" y1="2.5" x2="0.725" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-2.5" x2="-1.9" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="1.9" y1="-2.5" x2="3.5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-0.725" y1="-2.5" x2="-0.525" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="0.525" y1="-2.5" x2="0.725" y2="-2.5" width="0.1524" layer="21"/>
+<text x="-3.6" y="3.8" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="-1.524" y1="-4.037" x2="-1.016" y2="-4.037" width="0.254" layer="21"/>
+<wire x1="3.5" y1="-2.5" x2="3.5" y2="-1.9" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-0.7" x2="3.5" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="2.5" x2="3.5" y2="1.9" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TLC5940">
@@ -1024,8 +1076,8 @@ Used on single circuit logic gates</description>
 <wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.381" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.381" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.381" layer="94"/>
-<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;NAME</text>
-<text x="-7.62" y="12.7" size="1.778" layer="95">MIC5891</text>
+<text x="-7.62" y="-14.732" size="1.524" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-7.874" y="13.208" size="1.524" layer="96" font="vector" ratio="15">MIC5891</text>
 <pin name="VDD" x="-10.16" y="10.16" length="short" direction="pwr"/>
 <pin name="DIN" x="-10.16" y="5.08" length="short" direction="in"/>
 <pin name="CLK" x="-10.16" y="2.54" length="short"/>
@@ -1673,21 +1725,59 @@ Used on single circuit logic gates</description>
 <pin name="PB3/ADC3" x="12.7" y="-1.27" length="short" rot="R180"/>
 <pin name="PB4/ADC2" x="12.7" y="-3.81" length="short" rot="R180"/>
 </symbol>
-<symbol name="MICS5526">
-<wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
-<wire x1="8.89" y1="5.08" x2="8.89" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="8.89" y1="-7.62" x2="-8.89" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-7.62" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="-13.97" y="2.54" visible="pin" length="middle"/>
-<pin name="2/RH1" x="-13.97" y="0" visible="pin" length="middle"/>
-<pin name="3/RS1" x="-13.97" y="-2.54" visible="pin" length="middle"/>
-<pin name="4" x="-13.97" y="-5.08" visible="pin" length="middle"/>
-<pin name="5" x="13.97" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="RH2/6" x="13.97" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="RS2/7" x="13.97" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="8" x="13.97" y="2.54" visible="pin" length="middle" rot="R180"/>
-<text x="-8.89" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-8.89" y="-10.16" size="1.524" layer="96" font="vector" ratio="15">&gt;VALUE</text>
+<symbol name="MICS-5526">
+<wire x1="-10.16" y1="6.35" x2="10.16" y2="6.35" width="0.254" layer="94"/>
+<wire x1="10.16" y1="6.35" x2="10.16" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-6.35" x2="-10.16" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-6.35" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
+<pin name="1" x="-12.7" y="3.81" visible="pin" length="short"/>
+<pin name="2/RH1" x="-12.7" y="1.27" visible="pin" length="short"/>
+<pin name="3/RS1" x="-12.7" y="-1.27" visible="pin" length="short"/>
+<pin name="4" x="-12.7" y="-3.81" visible="pin" length="short"/>
+<pin name="5" x="12.7" y="-3.81" visible="pin" length="short" rot="R180"/>
+<pin name="6/RH2" x="12.7" y="-1.27" visible="pin" length="short" rot="R180"/>
+<pin name="7/RS2" x="12.7" y="1.27" visible="pin" length="short" rot="R180"/>
+<pin name="8" x="12.7" y="3.81" visible="pin" length="short" rot="R180"/>
+<text x="-10.16" y="6.604" size="1.524" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-10.16" y="-8.255" size="1.524" layer="96" font="vector" ratio="15">&gt;VALUE</text>
+</symbol>
+<symbol name="MICS-2714">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="A/RH1" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="B/RS1" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="C" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="D" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="E" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="F" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="G" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="H/RH2" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="J/RS2" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="K" x="-12.7" y="5.08" visible="pin" length="short"/>
+<wire x1="-10.16" y1="-5.969" x2="-10.16" y2="6.731" width="0.254" layer="94"/>
+<text x="-10.16" y="7.874" size="1.524" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-10.16" y="-9.398" size="1.524" layer="96" font="vector" ratio="15">&gt;VALUE</text>
+</symbol>
+<symbol name="MICS-5524">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="A" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="B" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="C/RH1" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="D/RS1" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="E" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="F/RH2" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="G/RS2" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="H" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="J" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="K" x="-12.7" y="5.08" visible="pin" length="short"/>
+<wire x1="-10.16" y1="-5.969" x2="-10.16" y2="6.731" width="0.254" layer="94"/>
+<text x="-10.16" y="7.874" size="1.524" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-10.16" y="-9.398" size="1.524" layer="96" font="vector" ratio="15">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2289,6 +2379,76 @@ Single-channel optocoupler comprising an AlGaAs LED optically coupled to a high-
 <connect gate="G$1" pin="PB4/ADC2" pad="3"/>
 <connect gate="G$1" pin="PB5/!RES" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICS-5526" prefix="U">
+<gates>
+<gate name="G$1" symbol="MICS-5526" x="0" y="1.27"/>
+</gates>
+<devices>
+<device name="" package="MICS-SMD8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2/RH1" pad="2"/>
+<connect gate="G$1" pin="3/RS1" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6/RH2" pad="6"/>
+<connect gate="G$1" pin="7/RS2" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICS-2714" prefix="U">
+<gates>
+<gate name="G$1" symbol="MICS-2714" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICS-SMD10">
+<connects>
+<connect gate="G$1" pin="A/RH1" pad="A"/>
+<connect gate="G$1" pin="B/RS1" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="F" pad="F"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="H/RH2" pad="H"/>
+<connect gate="G$1" pin="J/RS2" pad="J"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICS-5524" prefix="U">
+<gates>
+<gate name="G$1" symbol="MICS-5524" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICS-SMD10">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C/RH1" pad="C"/>
+<connect gate="G$1" pin="D/RS1" pad="D"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="F/RH2" pad="F"/>
+<connect gate="G$1" pin="G/RS2" pad="G"/>
+<connect gate="G$1" pin="H" pad="H"/>
+<connect gate="G$1" pin="J" pad="J"/>
+<connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
