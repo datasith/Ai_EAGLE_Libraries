@@ -3341,7 +3341,7 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X11">
+<deviceset name="1X11" prefix="J">
 <gates>
 <gate name="G$1" symbol="1X11" x="0" y="0"/>
 </gates>
