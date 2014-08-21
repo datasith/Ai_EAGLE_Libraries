@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -221,7 +221,7 @@ This library includes discrete semiconductor devices such as diodes, FETs, etc.
 <pad name="2" x="0" y="0" drill="0.8128" diameter="1.8796" rot="R90"/>
 <pad name="1" x="0" y="-2.54" drill="0.8128" diameter="1.8796" rot="R90"/>
 <text x="-3.048" y="1.778" size="1.27" layer="25" font="vector" ratio="15" rot="R180">&gt;NAME</text>
-<text x="-3.048" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R180">2N3904</text>
+<text x="-3.048" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R180">&gt;VALUE</text>
 <wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.2032" layer="21" curve="-136.397181"/>
 <wire x1="1.016" y1="2.54" x2="1.778" y2="2.032" width="0.2032" layer="21" curve="-49.398705"/>
 <wire x1="1.778" y1="2.032" x2="1.778" y2="-2.032" width="0.2032" layer="21"/>
@@ -235,7 +235,7 @@ This library includes discrete semiconductor devices such as diodes, FETs, etc.
 <pad name="2" x="0" y="0" drill="0.8128" diameter="1.8796" rot="R270"/>
 <pad name="1" x="0" y="2.54" drill="0.8128" diameter="1.8796" rot="R270"/>
 <text x="3.048" y="2.032" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="3.048" y="0" size="1.27" layer="25" font="vector" ratio="15">2N3906</text>
+<text x="3.048" y="0" size="1.27" layer="25" font="vector" ratio="15">&gt;VALUE</text>
 <wire x1="1.016" y1="2.54" x2="1.016" y2="-2.54" width="0.2032" layer="21" curve="-136.397181"/>
 <wire x1="-1.016" y1="-2.54" x2="-1.778" y2="-2.032" width="0.2032" layer="21" curve="-49.398705"/>
 <wire x1="-1.778" y1="-2.032" x2="-1.778" y2="2.032" width="0.2032" layer="21"/>
