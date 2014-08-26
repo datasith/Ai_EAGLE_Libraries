@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -194,7 +194,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="2.159" y1="1.143" x2="2.54" y2="-0.381" width="0.2032" layer="52"/>
 </package>
 <package name="SW-SPST-SMD035X030">
-<description>Shape on the symbol is misleading, 1-2 are internally connected, as well as 3-4.  Digi-Key: CKN9435CT-ND</description>
+<description>Shape on the symbol is misleading, 1-2 are internally connected, as well as 3-4.</description>
 <text x="-1.905" y="1.905" size="1.27" layer="21" font="vector" ratio="15">&gt;NAME</text>
 <smd name="1" x="-1.875" y="0.775" dx="0.65" dy="1.25" layer="1" rot="R90"/>
 <smd name="2" x="1.875" y="0.775" dx="0.65" dy="1.25" layer="1" rot="R90"/>
