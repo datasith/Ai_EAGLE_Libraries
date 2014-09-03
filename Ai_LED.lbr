@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -297,7 +297,7 @@ Available from
 <smd name="4" x="2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100" rot="R180"/>
 <smd name="1" x="-2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100" rot="R180"/>
 <smd name="2" x="-2.4" y="-1.7" dx="2" dy="1.1" layer="1" roundness="100" rot="R180"/>
-<text x="-2.54" y="3.175" size="1.27" layer="25" ratio="15">&gt;NAME</text>
+<text x="-2.54" y="3.175" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <wire x1="2.1" y1="-2.5" x2="2.2" y2="-2.4" width="0.2" layer="21"/>
 <wire x1="-2.5" y1="-2.4" x2="-2.5" y2="-2.5" width="0.2" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.3" y2="-2.5" width="0.2" layer="21"/>
@@ -333,6 +333,38 @@ Available from
 <wire x1="-0.46" y1="0.07" x2="0" y2="0.07" width="0.2032" layer="21"/>
 <wire x1="0" y1="0.07" x2="0.2338" y2="-0.24" width="0.2032" layer="21"/>
 <wire x1="-0.0254" y1="0.0546" x2="-0.2184" y2="-0.24" width="0.2032" layer="21"/>
+</package>
+<package name="LED-WS2812B-SM">
+<circle x="-0.7" y="2" radius="0.2236" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.1" width="0.127" layer="51"/>
+<wire x1="2.1" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1" y1="-2.5" x2="-1" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="1" y1="2.5" x2="-1" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-0.7" x2="2.5" y2="-0.9" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="0.9" x2="2.5" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="0.9" x2="-2.5" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-0.7" x2="-2.5" y2="-0.9" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.1" x2="2.1" y2="-2.5" width="0.127" layer="51"/>
+<rectangle x1="-2.7" y1="-2.05" x2="-1.7" y2="-1.15" layer="51" rot="R180"/>
+<rectangle x1="-2.7" y1="1.15" x2="-1.7" y2="2.05" layer="51" rot="R180"/>
+<rectangle x1="1.7" y1="-2.05" x2="2.7" y2="-1.15" layer="51"/>
+<rectangle x1="1.7" y1="1.15" x2="2.7" y2="2.05" layer="51"/>
+<smd name="3" x="2.2" y="-1.6" dx="2" dy="1.1" layer="1" rot="R180"/>
+<smd name="4" x="2.2" y="1.6" dx="1.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="1" x="-2.2" y="1.6" dx="1.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="2" x="-2.2" y="-1.6" dx="1.8" dy="1.1" layer="1" rot="R180"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="2.1" y1="-2.5" x2="2.2" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-2.4" x2="-2.5" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.3" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="2.4" x2="-2.5" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.3" y2="2.5" width="0.2" layer="21"/>
+<wire x1="2.3" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.4" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-2.5" x2="1.8" y2="-2.5" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -655,6 +687,17 @@ A 5x5mm SMD LED with built-in controller IC.</description>
 </gates>
 <devices>
 <device name="" package="LED-WS2812B">
+<connects>
+<connect gate="G$1" pin="DI" pad="4"/>
+<connect gate="G$1" pin="DO" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SM" package="LED-WS2812B-SM">
 <connects>
 <connect gate="G$1" pin="DI" pad="4"/>
 <connect gate="G$1" pin="DO" pad="2"/>
