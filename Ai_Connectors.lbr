@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -320,7 +320,7 @@ This library includes USB, pin headers and sockets in different configurations (
 <wire x1="-3.75" y1="-2.24" x2="3.75" y2="-2.24" width="0.2032" layer="21"/>
 <pad name="2" x="1.75" y="0" drill="1.016" diameter="2.032"/>
 <pad name="1" x="-1.75" y="0" drill="1.016" diameter="2.032" first="yes"/>
-<text x="-3.81" y="3.81" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3.81" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
 <package name="1X02-SJ-NO">
 <description>Small solder jumper with no paste layer so it will open after reflow.</description>
@@ -576,9 +576,8 @@ This library includes USB, pin headers and sockets in different configurations (
 <smd name="1" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
 <smd name="NC1" x="-3.4" y="1.5" dx="3.2" dy="1.6" layer="1" rot="R90"/>
 <smd name="NC2" x="3.4" y="1.5" dx="3.2" dy="1.6" layer="1" rot="R90"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="1.778" y="-2.54" size="1.27" layer="51" font="vector" ratio="15" rot="R270">+</text>
-<text x="-1.524" y="-2.54" size="1.27" layer="51" font="vector" ratio="15" rot="R180">-</text>
+<text x="1.778" y="-2.54" size="1.27" layer="21" font="vector" ratio="15" rot="R270">+</text>
+<text x="-1.524" y="-2.54" size="1.27" layer="21" font="vector" ratio="15" rot="R180">-</text>
 </package>
 <package name="1X20">
 <wire x1="-17.145" y1="1.27" x2="-15.875" y2="1.27" width="0.2032" layer="21"/>
@@ -1316,7 +1315,7 @@ Keying posts into board</description>
 <wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.2032" layer="21"/>
 <pad name="1" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-2.54" y="1.524" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.54" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="21"/>
 </package>
 <package name="1X02-SKINNY">
@@ -1348,7 +1347,6 @@ Keying posts into board</description>
 <smd name="D-" x="-0.65" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
 <smd name="D+" x="0" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
 <smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.4" layer="1" rot="R90"/>
-<text x="-2.54" y="-4.445" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <smd name="M5" x="-1.15" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
 <smd name="M6" x="1.15" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
 <pad name="MT1" x="-2.425" y="2.8" drill="0.6" diameter="1.2"/>
@@ -1502,7 +1500,7 @@ Keying posts into board</description>
 <pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-3.81" y="1.524" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3.81" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
@@ -3132,6 +3130,16 @@ SMD solder jumper: Normally Open and Normally Closed are the same, but have diff
 <technology name=""/>
 </technologies>
 </device>
+<device name="NOFIRST" package="1X03-NOFIRST">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1X02-PJ" prefix="JP">
@@ -3140,6 +3148,15 @@ SMD solder jumper: Normally Open and Normally Closed are the same, but have diff
 </gates>
 <devices>
 <device name="" package="1X02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NOFIRST" package="1X02-NOFIRST">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

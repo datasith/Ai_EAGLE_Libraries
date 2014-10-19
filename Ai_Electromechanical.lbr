@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -148,7 +148,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
 <circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
 <hole x="0" y="0" drill="3.302"/>
-<circle x="0" y="0" radius="3.175" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="51"/>
 </package>
 <package name="STAND-OFF-TIGHT">
 <description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
