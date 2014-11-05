@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -337,7 +337,7 @@ This library includes discrete semiconductor devices such as diodes, FETs, etc.
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="1.905" y="0.127" size="1.524" layer="95" font="vector" ratio="10">&gt;NAME</text>
-<text x="-8.128" y="-1.905" size="1.524" layer="95" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-4.318" y="-1.905" size="1.524" layer="95" font="vector" ratio="10">&gt;VALUE</text>
 </symbol>
 <symbol name="NPN">
 <wire x1="2.54" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
@@ -447,16 +447,25 @@ This library includes discrete semiconductor devices such as diodes, FETs, etc.
 </symbols>
 <devicesets>
 <deviceset name="P-FET" prefix="Q">
-<description>Generic PMOSFET</description>
 <gates>
 <gate name="G$1" symbol="P-FET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TO-252">
+<device name="-AOD417" package="TO-252">
 <connects>
 <connect gate="G$1" pin="D" pad="D"/>
 <connect gate="G$1" pin="G" pad="G"/>
 <connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SI2369DS" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
