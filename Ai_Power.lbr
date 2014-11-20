@@ -611,7 +611,6 @@ This library includes power ICs such as regulators, power symbols (e.g., GND, 5V
 </devices>
 </deviceset>
 <deviceset name="VCC" prefix="VCC">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="VCC" x="0" y="0"/>
 </gates>
