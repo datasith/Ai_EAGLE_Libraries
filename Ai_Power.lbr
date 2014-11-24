@@ -474,7 +474,7 @@ This library includes power ICs such as regulators, power symbols (e.g., GND, 5V
 <symbol name="VBAT">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="2.54" size="1.524" layer="96" ratio="10">VBAT</text>
+<text x="-1.905" y="2.54" size="1.524" layer="96" font="vector" ratio="10">VBAT</text>
 <pin name="VBAT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="VBUS">
