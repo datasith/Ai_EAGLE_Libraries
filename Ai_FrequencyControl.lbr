@@ -174,6 +174,17 @@ This library includes crystals, resonators, etc.
 <smd name="2" x="0" y="0" dx="0.65" dy="2.6" layer="1"/>
 <smd name="3" x="1" y="0" dx="0.65" dy="2.6" layer="1"/>
 </package>
+<package name="CRYSTAL-CYL-2X6MM-SMT">
+<description>32.768KHz Crystal - SMT Cylinder</description>
+<wire x1="-7.5" y1="-2.5" x2="4" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-2.5" x2="4" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="2.5" x2="-7.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-7.5" y1="2.5" x2="-7.5" y2="-2.5" width="0.2032" layer="21"/>
+<smd name="CYLINDER" x="-3.875" y="0" dx="6" dy="2.5" layer="1"/>
+<smd name="1" x="2.125" y="1.27" dx="2.5" dy="1" layer="1"/>
+<smd name="2" x="2.125" y="-1.27" dx="2.5" dy="1" layer="1"/>
+<text x="-7.485" y="2.786" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL">
@@ -232,11 +243,21 @@ This library includes crystals, resonators, etc.
 </symbols>
 <devicesets>
 <deviceset name="CRYSTAL" prefix="XL" uservalue="yes">
+<description>Cylinder: CMR200T-32.768KDZBT</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="HC49S" package="CRYSTAL-HC49S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CYL-2X6MM-SMT" package="CRYSTAL-CYL-2X6MM-SMT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

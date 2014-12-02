@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -309,17 +309,21 @@ This library includes RF ICs including Wi-Fi and Bluetooth, RF connectors, anten
 <smd name="18" x="6.731" y="5.08" dx="3.3528" dy="0.8128" layer="1" roundness="50"/>
 <smd name="19" x="6.731" y="6.35" dx="3.3528" dy="0.8128" layer="1" roundness="50"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="7.62" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="21"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-7.62" x2="1.27" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-7.62" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-3.81" x2="1.27" y2="-7.62" width="0.127" layer="21"/>
-<text x="-7.62" y="7.62" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="7.874" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <rectangle x1="-8.89" y1="5.842" x2="-8.636" y2="6.858" layer="21"/>
 <rectangle x1="-7.62" y1="-7.62" x2="1.27" y2="-3.81" layer="39"/>
 <rectangle x1="-7.62" y1="-7.62" x2="1.27" y2="-3.81" layer="41"/>
+<rectangle x1="-7.62" y1="-7.62" x2="1.27" y2="-3.81" layer="40" rot="R180"/>
+<rectangle x1="-7.62" y1="-7.62" x2="1.27" y2="-3.81" layer="42" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="6.985" width="0.127" layer="21"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="6.985" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-7.112" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="-3.302" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

@@ -155,7 +155,7 @@ This library includes mechanical hardware (e.g., stand-offs), buttons, switches,
 <smd name="B@2" x="3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
 <text x="-3.175" y="3.175" size="1.27" layer="21" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="STAND-OFF">
+<package name="STAND-OFF-4">
 <description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
 <wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
@@ -166,7 +166,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <hole x="0" y="0" drill="3.302"/>
 <circle x="0" y="0" radius="2.5" width="0.127" layer="51"/>
 </package>
-<package name="STAND-OFF-TIGHT">
+<package name="STAND-OFF-4T">
 <description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
 <wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
@@ -539,18 +539,18 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 </devices>
 </deviceset>
 <deviceset name="STAND-OFF" prefix="STANDOFF">
-<description>&lt;b&gt;#4 Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.</description>
+<description>&lt;b&gt;Size&lt;/b&gt;
+&lt;p&gt;#4&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="STAND-OFF">
+<device name="4" package="STAND-OFF-4">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="TIGHT" package="STAND-OFF-TIGHT">
+<device name="4T" package="STAND-OFF-4T">
 <technologies>
 <technology name=""/>
 </technologies>
