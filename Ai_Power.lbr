@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -689,13 +689,6 @@ This library includes power ICs such as regulators, power symbols (e.g., GND, 5V
 </devices>
 </deviceset>
 <deviceset name="MIC5205-*" prefix="U">
-<description>&lt;b&gt;Fixed-Voltage Regulator&lt;/b&gt;
-&lt;p&gt;
-Standard voltage regulator in SOT23-5 layout. Micrel part MIC5205x.x where x.x designates the output voltage (e.g., 3.3). BYP pin is used to lower output noise with 470pF cap.
-&lt;/p&gt;
-&lt;p&gt;
-Haven't tested the footprint on an actual board yet!
-&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VREG" x="0" y="0"/>
 </gates>
@@ -866,10 +859,6 @@ Standard adjustable voltage regulator.</description>
 </devices>
 </deviceset>
 <deviceset name="MIC5219-*" prefix="U">
-<description>&lt;b&gt;Fixed-Voltage Regulator&lt;/b&gt;
-&lt;p&gt;
-Standard voltage regulator in SOT23-5 layout. Micrel part MIC5219x.x where x.x designates the output voltage (e.g., 3.3). BYP pin is used to lower output noise with 470pF cap.
-&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VREG" x="0" y="0"/>
 </gates>
