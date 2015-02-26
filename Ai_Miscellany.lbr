@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="22.39998" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -7452,36 +7452,32 @@ This library includes schematic frames, logos, and other non-electrical/-mechani
 </package>
 <package name="AI-LOGO-XS">
 <polygon width="0.0254" layer="21">
-<vertex x="0.1524" y="0.6604"/>
-<vertex x="0" y="0.6604"/>
+<vertex x="1.275078125" y="-0.005078125"/>
+<vertex x="1.275078125" y="0.69088125"/>
+<vertex x="1.402078125" y="0.751840625"/>
+<vertex x="1.402078125" y="1.4732"/>
+<vertex x="1.280159375" y="1.5748"/>
+<vertex x="1.203959375" y="1.5748"/>
+<vertex x="1.203959375" y="1.874521875"/>
+<vertex x="1.148078125" y="1.9304"/>
+<vertex x="0.8280375" y="1.9304"/>
+<vertex x="0.75691875" y="1.864359375"/>
+<vertex x="0.75691875" y="1.63068125"/>
+<vertex x="0.7010375" y="1.63068125"/>
+<vertex x="0.701040625" y="1.5748"/>
+<vertex x="0.75691875" y="1.5748"/>
+<vertex x="1.198878125" y="1.574803125"/>
+<vertex x="1.198878125" y="1.615440625"/>
+<vertex x="0.690878125" y="1.615440625"/>
+<vertex x="0.690878125" y="1.569721875"/>
+<vertex x="0.568959375" y="1.468121875"/>
+<vertex x="0.568959375" y="0.751840625"/>
+<vertex x="0.695959375" y="0.6858"/>
+<vertex x="0.695959375" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0.9652" y="0"/>
-<vertex x="0.9652" y="0.6604"/>
-<vertex x="0.8128" y="0.6604"/>
-<vertex x="0.5334" y="1.6002"/>
-<vertex x="0.8128" y="1.6002"/>
-<vertex x="0.8128" y="1.6764"/>
-<vertex x="1.2954" y="1.6764"/>
-<vertex x="1.2954" y="1.7272"/>
-<vertex x="0.9652" y="1.7272"/>
-<vertex x="0.9652" y="2.0574"/>
-<vertex x="1.5748" y="2.0574"/>
-<vertex x="1.5748" y="1.7272"/>
-<vertex x="1.2954" y="1.7272"/>
-<vertex x="1.2954" y="1.6764"/>
-<vertex x="1.7018" y="1.6764"/>
-<vertex x="1.7018" y="1.6002"/>
-<vertex x="1.9812" y="1.6002"/>
-<vertex x="1.7526" y="0.6604"/>
-<vertex x="1.5494" y="0.6604"/>
-<vertex x="1.5494" y="0"/>
-<vertex x="2.54" y="0"/>
-<vertex x="2.54" y="0.6604"/>
-<vertex x="2.3622" y="0.6604"/>
-<vertex x="2.3622" y="2.2352"/>
-<vertex x="1.9558" y="2.6162"/>
-<vertex x="0.5588" y="2.6162"/>
-<vertex x="0.1524" y="2.2098"/>
+<vertex x="0" y="2.357121875"/>
+<vertex x="1.9710375" y="2.357121875"/>
+<vertex x="1.9710375" y="-0.005078125"/>
 </polygon>
 </package>
 </packages>
