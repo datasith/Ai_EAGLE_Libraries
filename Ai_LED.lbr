@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -465,6 +465,93 @@ Available from
 <smd name="6" x="2.2" y="1.6" dx="1.3" dy="1.2" layer="1"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
+<package name="LEDM88SMR">
+<wire x1="-10" y1="10" x2="10" y2="10" width="0.254" layer="21"/>
+<wire x1="-10" y1="-10" x2="-10" y2="10" width="0.254" layer="21"/>
+<wire x1="10" y1="-10" x2="10" y2="10" width="0.254" layer="21"/>
+<wire x1="-10" y1="-10" x2="10" y2="-10" width="0.254" layer="21"/>
+<pad name="1" x="-8.89" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="-7.5" drill="1" shape="long" rot="R90"/>
+<pad name="16" x="-8.75" y="7.5" drill="1" shape="long" rot="R90"/>
+<pad name="15" x="-6.25" y="7.5" drill="1" shape="long" rot="R90"/>
+<pad name="14" x="-3.75" y="7.5" drill="1" shape="long" rot="R90"/>
+<pad name="13" x="-1.25" y="7.5" drill="1" shape="long" rot="R90"/>
+<pad name="12" x="1.25" y="7.5" drill="1" shape="long" rot="R90"/>
+<pad name="11" x="3.75" y="7.5" drill="1" shape="long" rot="R90"/>
+<pad name="10" x="6.25" y="7.5" drill="1" shape="long" rot="R90"/>
+<pad name="9" x="8.75" y="7.5" drill="1" shape="long" rot="R90"/>
+<text x="-10.24" y="10.51" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<circle x="-8.75" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="-8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-8.75" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="-6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-8.75" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="-3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-8.75" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="-1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-8.75" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="1.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-8.75" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="3.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-8.75" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="6.25" radius="0.95" width="0.127" layer="21"/>
+<circle x="-8.75" y="8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-6.25" y="8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-3.75" y="8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="-1.25" y="8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="1.25" y="8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="3.75" y="8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="6.25" y="8.75" radius="0.95" width="0.127" layer="21"/>
+<circle x="8.75" y="8.75" radius="0.95" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED-BICOLOR-SMD">
@@ -771,6 +858,28 @@ Available from
 <pin name="CI" x="-15.24" y="0" length="short"/>
 <pin name="CO" x="12.7" y="0" length="short" rot="R180"/>
 </symbol>
+<symbol name="8X8SINGLE_COLOR">
+<wire x1="-11.43" y1="-15.24" x2="-11.43" y2="15.24" width="0.000253125" layer="94"/>
+<wire x1="-11.43" y1="15.24" x2="11.43" y2="15.24" width="0.000253125" layer="94"/>
+<wire x1="11.43" y1="15.24" x2="11.43" y2="-15.24" width="0.000253125" layer="94"/>
+<wire x1="11.43" y1="-15.24" x2="-11.43" y2="-15.24" width="0.000253125" layer="94"/>
+<pin name="AN1" x="-16.51" y="12.7" length="middle" direction="in"/>
+<pin name="AN2" x="-16.51" y="10.16" length="middle"/>
+<pin name="AN3" x="-16.51" y="7.62" length="middle"/>
+<pin name="AN4" x="-16.51" y="5.08" length="middle"/>
+<pin name="AN5" x="-16.51" y="2.54" length="middle"/>
+<pin name="AN6" x="-16.51" y="0" length="middle"/>
+<pin name="AN7" x="-16.51" y="-2.54" length="middle"/>
+<pin name="AN8" x="-16.51" y="-5.08" length="middle"/>
+<pin name="CA1" x="-8.89" y="-20.32" length="middle" rot="R90"/>
+<pin name="CA2" x="-6.35" y="-20.32" length="middle" rot="R90"/>
+<pin name="CA3" x="-3.81" y="-20.32" length="middle" rot="R90"/>
+<pin name="CA4" x="-1.27" y="-20.32" length="middle" rot="R90"/>
+<pin name="CA5" x="1.27" y="-20.32" length="middle" rot="R90"/>
+<pin name="CA6" x="3.81" y="-20.32" length="middle" rot="R90"/>
+<pin name="CA7" x="6.35" y="-20.32" length="middle" rot="R90"/>
+<pin name="CA8" x="8.89" y="-20.32" length="middle" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LED-BICOLOR" prefix="LED">
@@ -791,7 +900,7 @@ Available from
 </device>
 </devices>
 </deviceset>
-<deviceset name="NFM-12881BG-11" prefix="MAT">
+<deviceset name="MATRIX-8X8-BICOLOR" prefix="MAT">
 <description>Futurlec 8x8 LED Matrix</description>
 <gates>
 <gate name="G$1" symbol="8X8MATRIX" x="-10.16" y="-2.54"/>
@@ -974,6 +1083,36 @@ A 5x5mm SMD LED with built-in controller IC.</description>
 <connect gate="G$1" pin="DO" pad="6"/>
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MATRIX-8X8-SINGLE">
+<gates>
+<gate name="G$1" symbol="8X8SINGLE_COLOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LEDM88SMR">
+<connects>
+<connect gate="G$1" pin="AN1" pad="13"/>
+<connect gate="G$1" pin="AN2" pad="3"/>
+<connect gate="G$1" pin="AN3" pad="4"/>
+<connect gate="G$1" pin="AN4" pad="10"/>
+<connect gate="G$1" pin="AN5" pad="6"/>
+<connect gate="G$1" pin="AN6" pad="11"/>
+<connect gate="G$1" pin="AN7" pad="15"/>
+<connect gate="G$1" pin="AN8" pad="16"/>
+<connect gate="G$1" pin="CA1" pad="9"/>
+<connect gate="G$1" pin="CA2" pad="14"/>
+<connect gate="G$1" pin="CA3" pad="8"/>
+<connect gate="G$1" pin="CA4" pad="12"/>
+<connect gate="G$1" pin="CA5" pad="1"/>
+<connect gate="G$1" pin="CA6" pad="7"/>
+<connect gate="G$1" pin="CA7" pad="2"/>
+<connect gate="G$1" pin="CA8" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
