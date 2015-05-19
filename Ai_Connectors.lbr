@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2168,6 +2168,16 @@ Keying posts into board</description>
 <wire x1="25.4" y1="-2.54" x2="-25.4" y2="-2.54" width="0.2032" layer="22"/>
 <wire x1="-25.4" y1="-2.54" x2="-25.4" y2="2.54" width="0.2032" layer="22"/>
 <wire x1="25.4" y1="-2.54" x2="25.4" y2="2.54" width="0.2032" layer="22"/>
+</package>
+<package name="2X03-ICSP">
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" first="yes"/>
+<pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="0" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.8796"/>
+<text x="-3.937" y="2.921" size="1.27" layer="49" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="-4.191" y1="-0.889" x2="-4.191" y2="-1.905" width="0.2032" layer="22"/>
 </package>
 </packages>
 <symbols>
