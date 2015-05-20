@@ -2169,7 +2169,6 @@ Keying posts into board</description>
 <wire x1="-25.4" y1="-2.54" x2="-25.4" y2="2.54" width="0.2032" layer="22"/>
 <wire x1="25.4" y1="-2.54" x2="25.4" y2="2.54" width="0.2032" layer="22"/>
 </package>
-<<<<<<< HEAD
 <package name="2X03-ICSP">
 <pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" first="yes"/>
 <pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.8796"/>
@@ -2179,7 +2178,7 @@ Keying posts into board</description>
 <pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.8796"/>
 <text x="-3.937" y="2.921" size="1.27" layer="49" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="-3.302" y1="-2.921" x2="-3.556" y2="-2.921" width="0.2032" layer="22"/>
-=======
+</package>
 <package name="2X20-RPI-ALT">
 <pad name="11" x="-11.43" y="-1.27" drill="1.016" diameter="1.651"/>
 <pad name="13" x="-8.89" y="-1.27" drill="1.016" diameter="1.651"/>
@@ -2232,7 +2231,6 @@ Keying posts into board</description>
 <wire x1="25.4" y1="-2.54" x2="-25.4" y2="-2.54" width="0.2032" layer="22"/>
 <wire x1="-25.4" y1="-2.54" x2="-25.4" y2="2.54" width="0.2032" layer="22"/>
 <wire x1="25.4" y1="-2.54" x2="25.4" y2="2.54" width="0.2032" layer="22"/>
->>>>>>> d8bafb775356ad5ef11fdc74eaf779b4ff237ebe
 </package>
 </packages>
 <symbols>
