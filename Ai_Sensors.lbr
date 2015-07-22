@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -414,19 +414,16 @@
 <smd name="8" x="-1.225" y="0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
 <smd name="6" x="-1.225" y="-0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
 <smd name="5" x="-1.225" y="-0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<wire x1="-1.25" y1="-1.25" x2="1.25" y2="-1.25" width="0.0254" layer="20"/>
-<wire x1="1.25" y1="-1.25" x2="1.25" y2="1.25" width="0.0254" layer="20"/>
-<wire x1="1.25" y1="1.25" x2="-1.25" y2="1.25" width="0.0254" layer="20"/>
-<wire x1="-1.25" y1="1.25" x2="-1.25" y2="-1.25" width="0.0254" layer="20"/>
-<wire x1="-1.15" y1="1.088196875" x2="-1.15" y2="-1.05858125" width="0.0254" layer="20"/>
-<wire x1="-1.15" y1="-1.05858125" x2="-1.00858125" y2="-1.2" width="0.0254" layer="20" curve="90"/>
-<wire x1="-1.00858125" y1="-1.2" x2="1.00858125" y2="-1.2" width="0.0254" layer="20"/>
-<wire x1="1.00858125" y1="-1.2" x2="1.15" y2="-1.05858125" width="0.0254" layer="20" curve="90"/>
-<wire x1="1.15" y1="-1.05858125" x2="1.15" y2="1.088196875" width="0.0254" layer="20"/>
-<wire x1="1.15" y1="1.088196875" x2="1.038196875" y2="1.2" width="0.0254" layer="20" curve="90"/>
-<wire x1="1.038196875" y1="1.2" x2="-1.038196875" y2="1.2" width="0.0254" layer="20"/>
-<wire x1="-1.038196875" y1="1.2" x2="-1.15" y2="1.088196875" width="0.0254" layer="20" curve="90"/>
+<wire x1="-1.15" y1="-1.23" x2="1.15" y2="-1.23" width="0.127" layer="21"/>
+<wire x1="1.15" y1="0.59241875" x2="1.15" y2="0.707196875" width="0.127" layer="21"/>
+<wire x1="1.15" y1="1.23" x2="-1.15" y2="1.23" width="0.127" layer="21"/>
 <circle x="0.55" y="0.95" radius="0.0254" width="0.254" layer="19"/>
+<text x="-1.524" y="1.397" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="-1.15" y1="0.59241875" x2="-1.15" y2="0.707196875" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="-0.04258125" x2="-1.15" y2="0.072196875" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="-0.67758125" x2="-1.15" y2="-0.562803125" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-0.04258125" x2="1.15" y2="0.072196875" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-0.67758125" x2="1.15" y2="-0.562803125" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
