@@ -1737,6 +1737,7 @@ Keying posts into board</description>
 <wire x1="8.255" y1="1.27" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="10.795" y1="1.27" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="12.7" y1="0.635" x2="12.7" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.2032" layer="21"/>
 </package>
 <package name="1X04-NFNS">
 <pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -2294,6 +2295,19 @@ Keying posts into board</description>
 <text x="-7.62" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <pad name="5" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="6" x="6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+</package>
+<package name="1X10-NFNS">
+<pad name="1" x="-11.43" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="-6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-12.7" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<pad name="5" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="9" x="8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="10" x="11.43" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -3363,6 +3377,23 @@ Keying posts into board</description>
 </technologies>
 </device>
 <device name="NOFIRST" package="1X10-NOFIRST">
+<connects>
+<connect gate="M10X1" pin="1" pad="1"/>
+<connect gate="M10X1" pin="10" pad="10"/>
+<connect gate="M10X1" pin="2" pad="2"/>
+<connect gate="M10X1" pin="3" pad="3"/>
+<connect gate="M10X1" pin="4" pad="4"/>
+<connect gate="M10X1" pin="5" pad="5"/>
+<connect gate="M10X1" pin="6" pad="6"/>
+<connect gate="M10X1" pin="7" pad="7"/>
+<connect gate="M10X1" pin="8" pad="8"/>
+<connect gate="M10X1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NFNS" package="1X10-NFNS">
 <connects>
 <connect gate="M10X1" pin="1" pad="1"/>
 <connect gate="M10X1" pin="10" pad="10"/>
