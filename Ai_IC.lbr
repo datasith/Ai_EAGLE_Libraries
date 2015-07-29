@@ -1313,24 +1313,24 @@ Source: http://www.linear.com .. LT1996</description>
 <smd name="6" x="-7.5" y="-5.5" dx="2" dy="1.2" layer="1"/>
 <smd name="7" x="-7.5" y="-7.5" dx="2" dy="1.2" layer="1"/>
 <smd name="8" x="-7.5" y="-9.5" dx="2" dy="1.2" layer="1"/>
-<smd name="9" x="7.5" y="-9.5" dx="2" dy="1.2" layer="1"/>
-<smd name="10" x="7.5" y="-7.5" dx="2" dy="1.2" layer="1"/>
-<smd name="11" x="7.5" y="-5.5" dx="2" dy="1.2" layer="1"/>
-<smd name="12" x="7.5" y="-3.5" dx="2" dy="1.2" layer="1"/>
-<smd name="13" x="7.5" y="-1.5" dx="2" dy="1.2" layer="1"/>
-<smd name="14" x="7.5" y="0.5" dx="2" dy="1.2" layer="1"/>
-<smd name="15" x="7.5" y="2.5" dx="2" dy="1.2" layer="1"/>
-<smd name="16" x="7.5" y="4.5" dx="2" dy="1.2" layer="1"/>
+<smd name="15" x="7.5" y="-9.5" dx="2" dy="1.2" layer="1"/>
+<smd name="16" x="7.5" y="-7.5" dx="2" dy="1.2" layer="1"/>
+<smd name="17" x="7.5" y="-5.5" dx="2" dy="1.2" layer="1"/>
+<smd name="18" x="7.5" y="-3.5" dx="2" dy="1.2" layer="1"/>
+<smd name="19" x="7.5" y="-1.5" dx="2" dy="1.2" layer="1"/>
+<smd name="20" x="7.5" y="0.5" dx="2" dy="1.2" layer="1"/>
+<smd name="21" x="7.5" y="2.5" dx="2" dy="1.2" layer="1"/>
+<smd name="22" x="7.5" y="4.5" dx="2" dy="1.2" layer="1"/>
 <text x="-5" y="-12" size="1.4224" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
 <text x="4.5" y="-12" size="1.4224" layer="27" font="vector" ratio="12" align="center">&gt;VALUE</text>
 <rectangle x1="-8" y1="6" x2="8" y2="13" layer="41"/>
 <rectangle x1="-8" y1="6" x2="8" y2="13" layer="42"/>
-<smd name="17" x="-5" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
-<smd name="18" x="-3" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
-<smd name="19" x="-1" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
-<smd name="20" x="5" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
-<smd name="21" x="1" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
-<smd name="22" x="3" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
+<smd name="9" x="-5" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
+<smd name="10" x="-3" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
+<smd name="11" x="-1" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
+<smd name="14" x="5" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
+<smd name="12" x="1" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
+<smd name="13" x="3" y="-11" dx="1.6" dy="1.2" layer="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -3349,8 +3349,8 @@ IC-10035</description>
 <connect gate="G$1" pin="GPIO15" pad="16"/>
 <connect gate="G$1" pin="GPIO16" pad="4"/>
 <connect gate="G$1" pin="GPIO2" pad="17"/>
-<connect gate="G$1" pin="GPIO4" pad="19"/>
-<connect gate="G$1" pin="GPIO5" pad="20"/>
+<connect gate="G$1" pin="GPIO4" pad="20"/>
+<connect gate="G$1" pin="GPIO5" pad="19"/>
 <connect gate="G$1" pin="GPIO9" pad="11"/>
 <connect gate="G$1" pin="MISO" pad="10"/>
 <connect gate="G$1" pin="MOSI" pad="13"/>
