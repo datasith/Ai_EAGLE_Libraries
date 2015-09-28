@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -415,10 +415,10 @@ Available from
 <wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
 <text x="3.175" y="-0.635" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <circle x="0.635" y="-1.5875" radius="0.254" width="0.127" layer="21"/>
-<pad name="4" x="1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="3" x="0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="2" x="-0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="1" x="-1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<pad name="4" x="1.905" y="0" drill="0.7112" diameter="0.889" shape="long" rot="R90"/>
+<pad name="3" x="0.635" y="0" drill="0.7112" diameter="0.889" shape="long" rot="R90"/>
+<pad name="2" x="-0.635" y="0" drill="0.7112" diameter="0.889" shape="long" rot="R90"/>
+<pad name="1" x="-1.905" y="0" drill="0.7112" diameter="0.889" shape="long" rot="R90"/>
 </package>
 <package name="LED-PL9823-F8">
 <text x="-3" y="5" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
