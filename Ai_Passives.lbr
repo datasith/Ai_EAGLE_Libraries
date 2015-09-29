@@ -72,6 +72,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
@@ -507,6 +508,75 @@ chip</description>
 <pad name="NC2" x="0" y="-6.604" drill="2.2" diameter="3.81" shape="square"/>
 <text x="3.81" y="6.35" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
+<package name="CAP-POL-E3,5-8">
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
+<pad name="C" x="1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<pad name="A" x="-1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="3.302" y="2.794" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
+<package name="FUSE-5MM">
+<wire x1="-3.2258" y1="-10.127" x2="-3.2258" y2="-4.1072" width="0.2032" layer="21"/>
+<wire x1="-3.2258" y1="-10.127" x2="3.2258" y2="-10.127" width="0.2032" layer="21"/>
+<wire x1="3.2258" y1="-10.127" x2="3.2258" y2="-4.031" width="0.2032" layer="21"/>
+<wire x1="3.2258" y1="-4.031" x2="-3.2258" y2="-4.031" width="0.2032" layer="21"/>
+<wire x1="3.2258" y1="10.127" x2="3.2258" y2="4.1072" width="0.2032" layer="21"/>
+<wire x1="3.2258" y1="10.127" x2="-3.2258" y2="10.127" width="0.2032" layer="21"/>
+<wire x1="-3.2258" y1="10.127" x2="-3.2258" y2="4.031" width="0.2032" layer="21"/>
+<wire x1="-3.2258" y1="4.031" x2="3.2258" y2="4.031" width="0.2032" layer="21"/>
+<wire x1="-2.921" y1="9.812" x2="-2.921" y2="-9.619" width="0.2032" layer="51"/>
+<wire x1="-2.921" y1="-9.619" x2="2.794" y2="-9.619" width="0.2032" layer="51"/>
+<wire x1="2.794" y1="-9.619" x2="2.794" y2="9.812" width="0.2032" layer="51"/>
+<wire x1="2.794" y1="9.812" x2="-2.921" y2="9.812" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="-10" drill="2.54" diameter="3.556"/>
+<pad name="2" x="0" y="-4.158" drill="2.54" diameter="3.556"/>
+<pad name="4" x="0" y="10" drill="2.54" diameter="3.556" rot="R180"/>
+<pad name="3" x="0" y="4.158" drill="2.54" diameter="3.556" rot="R180"/>
+<text x="3.81" y="10.16" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
+<package name="CAP-POL-8X10">
+<wire x1="-4.15" y1="4.15" x2="3.55" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="3.55" y1="4.15" x2="4.15" y2="3.55" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="3.55" x2="4.15" y2="-3.55" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="-3.55" x2="3.55" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="3.55" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="0.95" x2="-4.15" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="3.55" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="3.55" y1="4.15" x2="4.15" y2="3.55" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="3.55" x2="4.15" y2="1.95" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-0.95" x2="4.15" y2="-3.55" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-3.55" x2="3.55" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="3.55" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="3.81" y1="1.22" x2="-3.81" y2="1.22" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-3.81" y1="-1.22" x2="3.81" y2="-1.22" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-3.1" y1="2.5" x2="-3.1" y2="-2.5" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="4" width="0.1016" layer="51"/>
+<smd name="A" x="3.35" y="0" dx="4" dy="1.5" layer="1"/>
+<smd name="C" x="-3.35" y="-0.05" dx="4" dy="1.5" layer="1"/>
+<rectangle x1="-4.65" y1="-0.55" x2="-3.95" y2="0.55" layer="51"/>
+<rectangle x1="3.95" y1="-0.55" x2="4.65" y2="0.55" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-3.15" y="2.45"/>
+<vertex x="-3.6" y="1.7"/>
+<vertex x="-3.9" y="0.85"/>
+<vertex x="-4.05" y="-0.05"/>
+<vertex x="-3.9" y="-1"/>
+<vertex x="-3.6" y="-1.75"/>
+<vertex x="-3.1" y="-2.5"/>
+</polygon>
+<text x="-4.54" y="4.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -643,6 +713,28 @@ chip</description>
 <text x="6.731" y="0.508" size="1.778" layer="94">COM</text>
 <text x="6.858" y="5.461" size="1.778" layer="94">A</text>
 </symbol>
+<symbol name="CAP-EPOL">
+<wire x1="-1.524" y1="0.381" x2="1.524" y2="0.381" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.381" x2="1.524" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="-1.524" y2="0.381" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="1.524" y2="1.27" width="0.254" layer="94"/>
+<text x="1.143" y="1.7526" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="-0.5842" y="1.6764" size="1.27" layer="94" rot="R90">+</text>
+<text x="1.143" y="-3.3274" size="1.27" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="1.651" y2="-0.381" layer="94"/>
+<pin name="-" x="0" y="-3.81" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="3.81" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="FUSE">
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point"/>
+<pin name="2" x="5.08" y="0" visible="off" length="point" rot="R180"/>
+<text x="2.286" y="-1.524" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="0.254" size="1.27" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RES" prefix="R" uservalue="yes">
@@ -690,10 +782,6 @@ chip</description>
 </devices>
 </deviceset>
 <deviceset name="CAP-POL" prefix="C" uservalue="yes">
-<description>&lt;h3&gt;Polarized Capacitor&lt;/h3&gt;
-&lt;p&gt;
- Normally 10uF, 47uF, and 100uF in electrolytic and tantalum varieties.
-&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAP-POL" x="0" y="0"/>
 </gates>
@@ -717,6 +805,24 @@ chip</description>
 </technologies>
 </device>
 <device name="PANASONIC-C" package="CAP-PANASONIC-C">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E3,5-8" package="CAP-POL-E3,5-8">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="8X10" package="CAP-POL-8X10">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -885,6 +991,31 @@ chip</description>
 <connect gate="G$1" pin="COM" pad="P2"/>
 <connect gate="G$1" pin="S1" pad="P4"/>
 <connect gate="G$1" pin="S2" pad="P5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE" prefix="F">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="X20MM" package="FUSE-5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="PTC-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
