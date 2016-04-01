@@ -655,8 +655,8 @@ chip</description>
 <symbol name="FB">
 <pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<text x="-5.842" y="0" size="1.524" layer="95" ratio="10">&gt;NAME</text>
-<text x="1.778" y="-1.778" size="1.524" layer="96" ratio="10">&gt;VALUE</text>
+<text x="-6.35" y="0" size="1.524" layer="95" ratio="10">&gt;NAME</text>
+<text x="7.62" y="-1.27" size="1.524" layer="96" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
@@ -946,7 +946,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FB" prefix="FB">
+<deviceset name="FB" prefix="FB" uservalue="yes">
 <description>Ferrite bead</description>
 <gates>
 <gate name="G$1" symbol="FB" x="0" y="0"/>
