@@ -1,14 +1,14 @@
 Overview
 ---
-This repository includes our libraries for [CadSoft EAGLE PCB Design Software][1] (version 6.x). We use the components in these libraries for designing the electronic hardware of the products we sell on our [website][2]. We've tested most of the footprints herein, and little by little we'll be adding whether they've been tested or not in the devices' description. Nonetheless, always, **always** test your board layouts by printing a 1:1 scale copy, and superimposing the physical components on it. 
+This repository includes our libraries for [CadSoft EAGLE PCB Design Software][1] (version 6.x). I use the components in these libraries for designing the electronic hardware of the products I sell on my [website][2]. I've tested most of the footprints herein, and little by little I'll be adding whether they've been tested or not in the devices' description. Nonetheless, always, **always** test your board layouts by printing a 1:1 scale copy, and superimposing the physical components on it. 
 
 If you find a mistake (wrong-sized footprints, mislabeled pins) [let us know][4] and receive a **10% discount** on your next order! 
 
-For clearly explained, step-by-step tutorials on using these libraries for designing your own electronic hardware please visit our [learning resources site][3].
+For clearly explained, step-by-step tutorials on using these libraries for designing your own electronic hardware please visit the [learning resources site][3].
 
 Library Organization
 ---
-We've arranged the components into libraries according to their function to try and facilitate searching for each one of them.  Some organizational choices are a matter of preference whereas others might have been done by mistake.  If you spot something that could be done better please [let us know][4].
+I've arranged the components into libraries according to their function to try and facilitate searching for each one of them.  Some organizational choices are a matter of preference whereas others might have been done by mistake.  If you spot something that could be done better please [let me know][4].
 
 1. **Ai_Boards**: development boards (e.g., Blackjack) and their respective shields (e.g., Arduino Motor Shield, Blackjack Wi-Fi Shield)
 2. **Ai_Connectors**: all types of connectors such as USB, pin headers and sockets in different configurations (e.g., pad shapes, with or without silkscreen), SD cards, screw terminals, etc.
@@ -57,20 +57,20 @@ To use these libraries please follow these simple steps:
 
 6. As of EAGLE 6.5.0 you should be able at this point to see the `Ai_EAGLE_Libraries` by selecting the `Control Panel` window, and expanding (clicking on `+`) the `Libraries` option.
 
-7. To browse our components, expand the `Ai_EAGLE_Libraries` option and subsequently expand any of the libraries therein (e.g., `Ai_Boards`, `Ai_Connectors`, etc.).
+7. To browse the components, expand the `Ai_EAGLE_Libraries` option and subsequently expand any of the libraries therein (e.g., `Ai_Boards`, `Ai_Connectors`, etc.).
 
-If you have any doubts about installation, usage, or troubleshooting the library and/or CadSoft's EAGLE software check out our [PCB Design tutorials and guides][3].
+If you have any doubts about installation, usage, or troubleshooting the library and/or CadSoft's EAGLE software check out the [PCB Design tutorials and guides][3].
 
 License Information
 ---
 All contents of this repository are licensed under a [Beerware License](http://en.wikipedia.org/wiki/Beerware).  If you find the libraries useful, and we happen to cross paths, you're encouraged to buy us a beer. The libraries are distributed hoping that you in fact find them useful, but  without warranty of any kind.
 
-It'd be great to hear what you've built using these libraries, so [drop us a line][4] and we'll happily feature your latest creation on our [blog][5]!
+It'd be great to hear what you've built using these libraries, so [drop us a line][4] and we'll happily feature your latest creation on my [blog][5]!
 
 ![alt Beerware License](http://upload.wikimedia.org/wikipedia/commons/d/d5/BeerWare_Logo.svg)
 
 [1]: http://www.cadsoftusa.com/ "CadSoft EAGLE PCB Design Sofware"
-[2]: http://www.acrobotic.com/ "Acrobotic Homepage"
+[2]: https://www.acrobotic.com/ "Acrobotic Homepage"
 [3]: http://learn.acrobotic.com/eagle "Acrobotic EAGLE Tutorials"
-[4]: http://acrobotic.com/contacts/ "Contact Acrobotic"
-[5]: http://blog.acrobotic.com/ "Acrobotic Blog"
+[4]: https://acrobotic.com/ "Contact Acrobotic"
+[5]: https://acrobotic.com/blogs/projects/ "Acrobotic Blog"
